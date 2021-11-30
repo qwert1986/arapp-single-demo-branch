@@ -1,0 +1,1 @@
+export type TDocumentSide = 'front' | 'back'

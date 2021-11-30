@@ -1,0 +1,43 @@
+.formSectionWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.inputWrapper {
+    flex-grow: 2;
+    margin: 5px 10px;
+}
+
+.orderTable, .orderTable td {
+    border: solid #f0f2f5 1px;
+}
+
+.orderTable td {
+    padding: 5px 10px;
+}
+
+.editModeSwitch {
+    margin: 7px 0;
+}
+
+.editSaveButton {
+    margin: 10px 0;
+    text-align: center;
+}
+
+td:first-child {
+    vertical-align: top;
+}
+
+td:first-child p {
+    margin: 5px 10px;
+}
+
+input {
+    margin-top: 1px !important;
+}
+
+label {
+    padding-left: 1px;
+}
